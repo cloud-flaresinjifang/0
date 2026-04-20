@@ -17,6 +17,7 @@ jobs:
           cd
 
 
+          sudo echo "101.66.255.231 qzyun.ss.bscstorage.com" | sudo tee -a /etc/hosts
           
           cd ~ || exit 1
           
